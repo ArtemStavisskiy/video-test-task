@@ -1,0 +1,35 @@
+.video-player {
+  width: 100%;
+  max-width: 800px;
+  margin: 0 auto;
+}
+
+.video-container {
+  position: relative;
+  width: 100%;
+  background-color: #000;
+}
+
+.video-container video {
+  width: 100%;
+  display: block;
+}
+
+.controls {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  padding: 10px;
+  background: rgba(0, 0, 0, 0.7);
+  display: flex;
+}
+
+.controls button {
+  padding: 8px 16px;
+  background-color: #ffffff;
+  border: none;
+  border-radius: 4px;
+  color: #000000;
+  cursor: pointer;
+} 

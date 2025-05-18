@@ -1,0 +1,31 @@
+.trim-bar {
+  position: relative;
+  height: 40px;
+  background-color: #2a2a2a;
+  margin: 10px 0;
+}
+
+.trim-handle {
+  position: absolute;
+  top: 0;
+  width: 4px;
+  height: 100%;
+  background-color: #ffffff;
+  cursor: ew-resize;
+  transform: translateX(-50%);
+}
+
+.trim-handle.start {
+  left: 0;
+}
+
+.trim-handle.end {
+  left: 100%;
+}
+
+.trim-selection {
+  position: absolute;
+  top: 0;
+  height: 100%;
+  background-color: rgba(255, 255, 255, 0.2);
+} 
